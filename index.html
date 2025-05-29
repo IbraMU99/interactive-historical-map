@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4165e71f4e6d35be2a8083d0e2e6448a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4165e71f4e6d35be2a8083d0e2e6448a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4165e71f4e6d35be2a8083d0e2e6448a = L.map(
+                "map_4165e71f4e6d35be2a8083d0e2e6448a",
+                {
+                    center: [25.0, 50.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0ef61f194777ddf9a3fb213bb1739b60 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_0ef61f194777ddf9a3fb213bb1739b60.addTo(map_4165e71f4e6d35be2a8083d0e2e6448a);
+        
+    
+            var marker_7e0d930ed05fecebc4c90231dbbf1e72 = L.marker(
+                [33.3152, 44.3661],
+                {
+}
+            ).addTo(map_4165e71f4e6d35be2a8083d0e2e6448a);
+        
+    
+            var icon_60e0565f93023007516d907434a0fb8f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_29f32ffed76c784ac7426c3f6e339d67 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c113ad949367885709ddf25aaedaa96e = $(`<div id="html_c113ad949367885709ddf25aaedaa96e" style="width: 100.0%; height: 100.0%;">Iraq - Ancient Civilizations - Home to Mesopotamia (the cradle of civilization) Sumerians, Akkadians, Babylonians, and Assyrians, Key Sites - Ziggurat of Ur, ancient ruins of Babylon and Nineveh, Imam Hussein Shrine, Imam Ali Shrine, Historical Importance - Birthplace of writing (cuneiform), early law codes and urban society</div>`)[0];
+                popup_29f32ffed76c784ac7426c3f6e339d67.setContent(html_c113ad949367885709ddf25aaedaa96e);
+            
+        
+
+        marker_7e0d930ed05fecebc4c90231dbbf1e72.bindPopup(popup_29f32ffed76c784ac7426c3f6e339d67)
+        ;
+
+        
+    
+    
+                marker_7e0d930ed05fecebc4c90231dbbf1e72.setIcon(icon_60e0565f93023007516d907434a0fb8f);
+            
+    
+            var marker_aaa0ea2103d172feb6a9bd9519a7dfb9 = L.marker(
+                [29.9537564, 31.5370003],
+                {
+}
+            ).addTo(map_4165e71f4e6d35be2a8083d0e2e6448a);
+        
+    
+            var icon_591a7d1833a426923282aad50a76251c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1b4c35dabcafbdfdac7850c144148252 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21f071e1923c432a778be30fa6eaadfc = $(`<div id="html_21f071e1923c432a778be30fa6eaadfc" style="width: 100.0%; height: 100.0%;">Egypt - Ancient Civilizations - Ancient Egyptians, Key Sites - Pyramids of Giza, Karnak, Luxor, Valley of the Kings, Historical Importance - Cradle of organized religion, writing and monumental architecture</div>`)[0];
+                popup_1b4c35dabcafbdfdac7850c144148252.setContent(html_21f071e1923c432a778be30fa6eaadfc);
+            
+        
+
+        marker_aaa0ea2103d172feb6a9bd9519a7dfb9.bindPopup(popup_1b4c35dabcafbdfdac7850c144148252)
+        ;
+
+        
+    
+    
+                marker_aaa0ea2103d172feb6a9bd9519a7dfb9.setIcon(icon_591a7d1833a426923282aad50a76251c);
+            
+    
+            var marker_e1ea534f53ea9d15f27b2e66abfe7377 = L.marker(
+                [33.5132, 36.2768],
+                {
+}
+            ).addTo(map_4165e71f4e6d35be2a8083d0e2e6448a);
+        
+    
+            var icon_ed49228183b5e2a135c7142351dab423 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8f6416e04d8324f8c63bdf5988320246 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9548d03288e7b26199f8cd755c90ee4e = $(`<div id="html_9548d03288e7b26199f8cd755c90ee4e" style="width: 100.0%; height: 100.0%;">Syria - Ancient Civilizations - Sumerians, Akkadians, Arameans, Assyrians, Greeks, Romans, Key Sites - Palmyra, Aleppo Citadel, Ebla Ruins, Historical Importance - Rich cultural crossroad in ancient and Islamic history</div>`)[0];
+                popup_8f6416e04d8324f8c63bdf5988320246.setContent(html_9548d03288e7b26199f8cd755c90ee4e);
+            
+        
+
+        marker_e1ea534f53ea9d15f27b2e66abfe7377.bindPopup(popup_8f6416e04d8324f8c63bdf5988320246)
+        ;
+
+        
+    
+    
+                marker_e1ea534f53ea9d15f27b2e66abfe7377.setIcon(icon_ed49228183b5e2a135c7142351dab423);
+            
+    
+            var marker_f7ccb598b3f3434048f82cc66073a3c6 = L.marker(
+                [22.7554385, 46.2091547],
+                {
+}
+            ).addTo(map_4165e71f4e6d35be2a8083d0e2e6448a);
+        
+    
+            var icon_48d9f19361261cfc4157c89093694c32 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_93e97bc91984886c24416d2f4d39a447 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16150e187efec22b3ab1b830e78899a3 = $(`<div id="html_16150e187efec22b3ab1b830e78899a3" style="width: 100.0%; height: 100.0%;">Saudi Arabia - Ancient Civilizations - Nabataeans, Lihyanites, Thamudic tribes, Key Sites - Kaaba, Al-Masjid Al-Nabawi, Diriyah, Ghar Hira, Historical Importance - Birthplace of Prophet Muhammad, Spiritual center of Islam since the 7th century</div>`)[0];
+                popup_93e97bc91984886c24416d2f4d39a447.setContent(html_16150e187efec22b3ab1b830e78899a3);
+            
+        
+
+        marker_f7ccb598b3f3434048f82cc66073a3c6.bindPopup(popup_93e97bc91984886c24416d2f4d39a447)
+        ;
+
+        
+    
+    
+                marker_f7ccb598b3f3434048f82cc66073a3c6.setIcon(icon_48d9f19361261cfc4157c89093694c32);
+            
+    
+            var marker_d4e7a100da25a2b72f49288f9e2bf122 = L.marker(
+                [31.7638, 35.2137],
+                {
+}
+            ).addTo(map_4165e71f4e6d35be2a8083d0e2e6448a);
+        
+    
+            var icon_76607d350e4c99c9c10db991f48bc6a9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c0b486623cc50df2099385897ba48a2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a5970b177411d1b2dfbf3f55e782d7a = $(`<div id="html_1a5970b177411d1b2dfbf3f55e782d7a" style="width: 100.0%; height: 100.0%;">Palestine - Ancient Civilizations - Canaanites, Philistines, Israelites, and others, Key Sites - Al-Aqsa Mosque, Church of the Holy Sepulchre, Historical Importance - Sacred to three major religions</div>`)[0];
+                popup_c0b486623cc50df2099385897ba48a2b.setContent(html_1a5970b177411d1b2dfbf3f55e782d7a);
+            
+        
+
+        marker_d4e7a100da25a2b72f49288f9e2bf122.bindPopup(popup_c0b486623cc50df2099385897ba48a2b)
+        ;
+
+        
+    
+    
+                marker_d4e7a100da25a2b72f49288f9e2bf122.setIcon(icon_76607d350e4c99c9c10db991f48bc6a9);
+            
+    
+            var marker_6ff8dde9b9776d3f91cfa0e839dd2fb4 = L.marker(
+                [39.9334, 32.8597],
+                {
+}
+            ).addTo(map_4165e71f4e6d35be2a8083d0e2e6448a);
+        
+    
+            var icon_156b3647667564f652f4018d1a2a0a36 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1cadfc3c29aecbee381c9802c1ee9162 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4baf7bc2689c011e83e1ba2d8a4c53d = $(`<div id="html_f4baf7bc2689c011e83e1ba2d8a4c53d" style="width: 100.0%; height: 100.0%;">Turkey - Ancient Civilizations - Hittites, Greeks, Romans, Byzantines, and Ottomans, Key Sites - Hagia Sophia, Troy, Ephesus, Göbekli Tepe (oldest temple complex), Historical Importance - Center of the Byzantine and later Ottoman Empires</div>`)[0];
+                popup_1cadfc3c29aecbee381c9802c1ee9162.setContent(html_f4baf7bc2689c011e83e1ba2d8a4c53d);
+            
+        
+
+        marker_6ff8dde9b9776d3f91cfa0e839dd2fb4.bindPopup(popup_1cadfc3c29aecbee381c9802c1ee9162)
+        ;
+
+        
+    
+    
+                marker_6ff8dde9b9776d3f91cfa0e839dd2fb4.setIcon(icon_156b3647667564f652f4018d1a2a0a36);
+            
+    
+            var marker_577547a3c1cd96c858f0307cb9787f08 = L.marker(
+                [35.6944, 51.4215],
+                {
+}
+            ).addTo(map_4165e71f4e6d35be2a8083d0e2e6448a);
+        
+    
+            var icon_f6db2ba1b0b223f623c3fee0dc582fe7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_361f9f5a9993703e59023fd8bc9418c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae2b58a13ece4c04bbd398e0923a400c = $(`<div id="html_ae2b58a13ece4c04bbd398e0923a400c" style="width: 100.0%; height: 100.0%;">Iran - Ancient Civilizations - Elamites, Medes, Persians (Achaemenid Empire), Key Sites - Persepolis, Naqsh-e Rustam, ancient city of Susa, Historical Importance - Persian Empire was one of the greatest ancient powers; major influence on art, science, and governance.</div>`)[0];
+                popup_361f9f5a9993703e59023fd8bc9418c2.setContent(html_ae2b58a13ece4c04bbd398e0923a400c);
+            
+        
+
+        marker_577547a3c1cd96c858f0307cb9787f08.bindPopup(popup_361f9f5a9993703e59023fd8bc9418c2)
+        ;
+
+        
+    
+    
+                marker_577547a3c1cd96c858f0307cb9787f08.setIcon(icon_f6db2ba1b0b223f623c3fee0dc582fe7);
+            
+    
+            var marker_dc5b5ca9875c6817038d91b8e2bc67b4 = L.marker(
+                [31.9544, 35.9106],
+                {
+}
+            ).addTo(map_4165e71f4e6d35be2a8083d0e2e6448a);
+        
+    
+            var icon_9a9fafd76fb09c1857c23dd20b7b7777 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8a6f775c9f33da252803247dde652b3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b127005e15feb70c9bf015cb60bc954 = $(`<div id="html_1b127005e15feb70c9bf015cb60bc954" style="width: 100.0%; height: 100.0%;">Jordan - Ancient Civilizations - Nabataeans (builders of Petra), Edomites, Moabites, Key Sites - Petra (rock-cut architecture), Historical Importance - Important Roman province (Decapolis cities), trade route crossroad</div>`)[0];
+                popup_8a6f775c9f33da252803247dde652b3a.setContent(html_1b127005e15feb70c9bf015cb60bc954);
+            
+        
+
+        marker_dc5b5ca9875c6817038d91b8e2bc67b4.bindPopup(popup_8a6f775c9f33da252803247dde652b3a)
+        ;
+
+        
+    
+    
+                marker_dc5b5ca9875c6817038d91b8e2bc67b4.setIcon(icon_9a9fafd76fb09c1857c23dd20b7b7777);
+            
+    
+            var marker_8ea5d4a3361d6f68a1efb7f5e260e663 = L.marker(
+                [25.2793, 51.5225],
+                {
+}
+            ).addTo(map_4165e71f4e6d35be2a8083d0e2e6448a);
+        
+    
+            var icon_a85f97387eba578d5e8c7e83156836c9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a3fab850fdc5d528cacc3045d52a3451 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea9960c13cc4287b583584ea801265e2 = $(`<div id="html_ea9960c13cc4287b583584ea801265e2" style="width: 100.0%; height: 100.0%;">Qatar - Ancient Civilizations - Evidence of settlements from the Neolithic period, Key Sites - Al Zubarah Fort (UNESCO site), Barzan Towers, Lusail Stadium, Historical Importance - Fishing and pearling center; rapidly modernized in the 20th century </div>`)[0];
+                popup_a3fab850fdc5d528cacc3045d52a3451.setContent(html_ea9960c13cc4287b583584ea801265e2);
+            
+        
+
+        marker_8ea5d4a3361d6f68a1efb7f5e260e663.bindPopup(popup_a3fab850fdc5d528cacc3045d52a3451)
+        ;
+
+        
+    
+    
+                marker_8ea5d4a3361d6f68a1efb7f5e260e663.setIcon(icon_a85f97387eba578d5e8c7e83156836c9);
+            
+    
+            var marker_fb5b5f8fe4d87c8f55f28c241e79491f = L.marker(
+                [29.378586, 47.990341],
+                {
+}
+            ).addTo(map_4165e71f4e6d35be2a8083d0e2e6448a);
+        
+    
+            var icon_a894d26d452f46a609f5a85cab6d2b2e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dca58807263c5a9d46abe605d61216b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1eac2dbb66b761de68f6312d63cac477 = $(`<div id="html_1eac2dbb66b761de68f6312d63cac477" style="width: 100.0%; height: 100.0%;">Kuwait - Ancient Civilizations - Evidence of early Dilmun trade connections; inhabited since at least 2000 BCE, Key Sites - Failaka Island (Greek and Mesopotamian ruins), Kuwait National Museum (with artifacts from Dilmun and Islamic periods), Historical Importance - Important maritime and trading hub in the Persian Gulf; developed through trade, pearling, and later oil.</div>`)[0];
+                popup_dca58807263c5a9d46abe605d61216b0.setContent(html_1eac2dbb66b761de68f6312d63cac477);
+            
+        
+
+        marker_fb5b5f8fe4d87c8f55f28c241e79491f.bindPopup(popup_dca58807263c5a9d46abe605d61216b0)
+        ;
+
+        
+    
+    
+                marker_fb5b5f8fe4d87c8f55f28c241e79491f.setIcon(icon_a894d26d452f46a609f5a85cab6d2b2e);
+            
+    
+            var marker_e2fe21f49ae786672d98ad10841a77b0 = L.marker(
+                [23.6139, 58.5922],
+                {
+}
+            ).addTo(map_4165e71f4e6d35be2a8083d0e2e6448a);
+        
+    
+            var icon_97a94fe39187ae70d0e820e2d5a7bc37 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d4d504b9f7a1a51544fec98ec294e08c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_058aebb609372afb014f8eef452ff208 = $(`<div id="html_058aebb609372afb014f8eef452ff208" style="width: 100.0%; height: 100.0%;">Oman - Ancient Civilizations - Magan civilization (mentioned in Sumerian texts), Key Sites - Bahla Fort, ancient aflaj irrigation systems, Historical Importance - Long history of seafaring and trade with Africa and India</div>`)[0];
+                popup_d4d504b9f7a1a51544fec98ec294e08c.setContent(html_058aebb609372afb014f8eef452ff208);
+            
+        
+
+        marker_e2fe21f49ae786672d98ad10841a77b0.bindPopup(popup_d4d504b9f7a1a51544fec98ec294e08c)
+        ;
+
+        
+    
+    
+                marker_e2fe21f49ae786672d98ad10841a77b0.setIcon(icon_97a94fe39187ae70d0e820e2d5a7bc37);
+            
+    
+            var marker_68c7129df6a957f29178a3afcd76c05e = L.marker(
+                [15.3547, 44.2067],
+                {
+}
+            ).addTo(map_4165e71f4e6d35be2a8083d0e2e6448a);
+        
+    
+            var icon_a6073b659450a9681256e93d4ec7a0cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5e638bfe3dd5f8214775e9871ede6b35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d11108cdc556ae0f6f81a645e9b279d = $(`<div id="html_1d11108cdc556ae0f6f81a645e9b279d" style="width: 100.0%; height: 100.0%;">Yemen - Ancient Civilizations - Sabaeans, Himyarites, Key Sites - Old city of Sana’a, Marib Dam ruins, Historical Importance - Important stop on ancient incense and spice routes </div>`)[0];
+                popup_5e638bfe3dd5f8214775e9871ede6b35.setContent(html_1d11108cdc556ae0f6f81a645e9b279d);
+            
+        
+
+        marker_68c7129df6a957f29178a3afcd76c05e.bindPopup(popup_5e638bfe3dd5f8214775e9871ede6b35)
+        ;
+
+        
+    
+    
+                marker_68c7129df6a957f29178a3afcd76c05e.setIcon(icon_a6073b659450a9681256e93d4ec7a0cd);
+            
+    
+            var marker_d3d55960e769faec1e18fec8664999e7 = L.marker(
+                [33.8938, 35.5018],
+                {
+}
+            ).addTo(map_4165e71f4e6d35be2a8083d0e2e6448a);
+        
+    
+            var icon_20c46d9112cfc8b1cf09ee3dd8236510 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_695dc072fa6be3304dc60d113b29324e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ec2aeeb4379b136e5784bc3e73c48c4 = $(`<div id="html_7ec2aeeb4379b136e5784bc3e73c48c4" style="width: 100.0%; height: 100.0%;">Lebanon - Ancient Civilizations - Phoenicians (famous seafarers and inventors of the alphabet), Key Sites - Byblos, Tyre, Baalbek (Roman temples), Historical Importance - Roman, Byzantine, and Ottoman periods left rich architectural heritage</div>`)[0];
+                popup_695dc072fa6be3304dc60d113b29324e.setContent(html_7ec2aeeb4379b136e5784bc3e73c48c4);
+            
+        
+
+        marker_d3d55960e769faec1e18fec8664999e7.bindPopup(popup_695dc072fa6be3304dc60d113b29324e)
+        ;
+
+        
+    
+    
+                marker_d3d55960e769faec1e18fec8664999e7.setIcon(icon_20c46d9112cfc8b1cf09ee3dd8236510);
+            
+    
+            var marker_89be65e2b4ba43a5e4d59dc530fe8a78 = L.marker(
+                [24.4667, 54.3667],
+                {
+}
+            ).addTo(map_4165e71f4e6d35be2a8083d0e2e6448a);
+        
+    
+            var icon_e581dbf5f39fe434164edfb2c042b1f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_751fc664436bbb5d9ad9add9ea37dbab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0228ecb4ee439f3aa32e92cfa01e4dcf = $(`<div id="html_0228ecb4ee439f3aa32e92cfa01e4dcf" style="width: 100.0%; height: 100.0%;">United Arab Emirates - Ancient Civilizations - Bronze Age settlements (Hili, Umm Al-Nar culture), Key Sites - Al Ain oasis and fort, Jumeirah Archaeological Site, Burj Khalifa, Historical Importance - Important in ancient trade; later a pearling center and part of British protectorate until 1971</div>`)[0];
+                popup_751fc664436bbb5d9ad9add9ea37dbab.setContent(html_0228ecb4ee439f3aa32e92cfa01e4dcf);
+            
+        
+
+        marker_89be65e2b4ba43a5e4d59dc530fe8a78.bindPopup(popup_751fc664436bbb5d9ad9add9ea37dbab)
+        ;
+
+        
+    
+    
+                marker_89be65e2b4ba43a5e4d59dc530fe8a78.setIcon(icon_e581dbf5f39fe434164edfb2c042b1f9);
+            
+    
+            var marker_db99bc00787b70f7bd6c2942785c1061 = L.marker(
+                [26.2154, 50.5832],
+                {
+}
+            ).addTo(map_4165e71f4e6d35be2a8083d0e2e6448a);
+        
+    
+            var icon_59100ba1db867eadbab237e724f78444 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5644a19605b041bed7a856b3f02c28ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95dc4baaf620185ac646b9ed82c2a558 = $(`<div id="html_95dc4baaf620185ac646b9ed82c2a558" style="width: 100.0%; height: 100.0%;">Bahrain - Ancient Civilizations - Dilmun civilization (important Bronze Age trading center), Key Sites - Qal’at al-Bahrain (ancient port), burial mounds, Mentioned in Sumerian texts; crossroads of trade in the Gulf</div>`)[0];
+                popup_5644a19605b041bed7a856b3f02c28ff.setContent(html_95dc4baaf620185ac646b9ed82c2a558);
+            
+        
+
+        marker_db99bc00787b70f7bd6c2942785c1061.bindPopup(popup_5644a19605b041bed7a856b3f02c28ff)
+        ;
+
+        
+    
+    
+                marker_db99bc00787b70f7bd6c2942785c1061.setIcon(icon_59100ba1db867eadbab237e724f78444);
+            
+</script>
+</html>
